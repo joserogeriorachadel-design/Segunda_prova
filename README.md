@@ -15,7 +15,7 @@ O tabuleiro abaixo apresenta uma solução parcial, ou seja, uma distribuição 
 
 Dado, agora, um valor k (1 ≤ k ≤ 9), queremos saber em quais linha e em quais colunas este valor NÃO aparece.
 
-- Entrada- : Há nove linhas, cada uma delas contendo os nove números correspondentes à linha do tabuleiro, separados por um espaço em branco, onde o valor 0 (zero) indica que a célula ainda não foi preenchida. Após essas linhas está o valor  (1 ≤ k ≤ 9).
+**Entrada**: Há nove linhas, cada uma delas contendo os nove números correspondentes à linha do tabuleiro, separados por um espaço em branco, onde o valor 0 (zero) indica que a célula ainda não foi preenchida. Após essas linhas está o valor  (1 ≤ k ≤ 9).
 0 0 0 8 0 0 0 0 9
 
 0 1 9 0 0 5 8 3 0
@@ -36,7 +36,7 @@ Dado, agora, um valor k (1 ≤ k ≤ 9), queremos saber em quais linha e em quai
 
 3
 
-Saída: é composta por duas linhas, a primeira listando as linhas (valores entre 1 e 9, nesta ordem) do tabuleiro  nas quais o valor k não aparece, seguida de outra que lista as colunas (valor entre 1 e 9, nesta ordem) nas quais o valor k não aparece.
+**Saída**: é composta por duas linhas, a primeira listando as linhas (valores entre 1 e 9, nesta ordem) do tabuleiro  nas quais o valor k não aparece, seguida de outra que lista as colunas (valor entre 1 e 9, nesta ordem) nas quais o valor k não aparece.
 1 5 6 9
 
 1 4 5 6
