@@ -12,19 +12,31 @@ Sudoku é um jogo de lógica cujo objetivo é distribuir números de 1 a 9 em ca
 O tabuleiro abaixo apresenta uma solução parcial, ou seja, uma distribuição parcial destes valores, faltando completar vários deles.
 
 <img width="226" height="224" alt="sudoku" src="https://github.com/user-attachments/assets/19036915-d2c3-44f7-a718-8b8f8c992da3" />
+
 Dado, agora, um valor k (1 ≤ k ≤ 9), queremos saber em quais linha e em quais colunas este valor NÃO aparece.
+
 Entrada: Há nove linhas, cada uma delas contendo os nove números correspondentes à linha do tabuleiro, separados por um espaço em branco, onde o valor 0 (zero) indica que a célula ainda não foi preenchida. Após essas linhas está o valor  (1 ≤ k ≤ 9).
 0 0 0 8 0 0 0 0 9
+
 0 1 9 0 0 5 8 3 0
+
 0 4 3 0 1 0 0 0 7
+
 4 9 0 1 5 0 0 0 3
+
 0 0 2 7 0 4 0 1 0
+
 0 8 0 0 9 0 6 0 0
+
 0 7 0 0 0 6 3 0 0
+
 0 3 0 0 7 0 0 8 0
+
 9 0 4 5 0 0 0 0 1
+
 3
 
 Saída: é composta por duas linhas, a primeira listando as linhas (valores entre 1 e 9, nesta ordem) do tabuleiro  nas quais o valor k não aparece, seguida de outra que lista as colunas (valor entre 1 e 9, nesta ordem) nas quais o valor k não aparece.
 1 5 6 9
+
 1 4 5 6
